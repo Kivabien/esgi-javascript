@@ -39,7 +39,7 @@ function camelCase(str) {
          });
      }
 
- console.log(camelize(str));
+ console.log(camelCase(str));
 
 // snake_case Joindre les mots par des underscores en MIN
 
