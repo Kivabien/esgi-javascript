@@ -32,7 +32,7 @@ console.log(capitalize(str));
 
 var str = "hello word";
 
-function camelize(str) {
+function camelCase(str) {
       return str.replace(/\W+(.)/g, function(match, chr)
         {
             return chr.toUpperCase();
@@ -47,14 +47,14 @@ function camelize(str) {
 
 // leet - Cryptage (uniquement les voyelles) anaconda => 4n4c0nd4 A=>4, E=>3, I=>1, O=>0 ,U=> (_), Y=>7
 
-function replaceChr(chr) {
+function leet(chr) {
   var chrs = {'a':'4','e':'3','i':'1','o':'O','u':'(_)','y':'7'};
   return chrs[chr.toLowerCase()] || chr;
 }
  
 var message = "Anaconda";
  
-console.log( message.replace(/[aeltso]/g, replaceChr) );
+console.log( message.replace(/[aeltso]/g, leet) );
 
 // prop_access “animal.type.name” => animal[“type”][“name”] prop_access(prairie, “animal.type.name”) => praire.animal.type.name => “chien” Si attribut non existant, afficher le chemin jusqu’à l’attribut => “animal.gender not exist” Si path vide ou null, renvoyer l’objet comple
 
@@ -76,17 +76,5 @@ console.log(verlan(str));
 
 // yoda Inverser la position des mots d’une phrase Hello world => world Hello 
 
-
-var yoda = "hello word";
-
-var reverseWords = function(yoda){
-	var words = yoda.split(" ").reverse(); 
-	var string = "";
-	for(word in words)
-		string += (word > 0 ? " " : "") + words[word]; 
-	return string;
-}
-
-console.log(reverseWords(yoda));
 
 // vig - Cryptage => Chiffre de Vigenère wikipedia + crypto => yzixisfzy
