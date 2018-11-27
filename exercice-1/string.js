@@ -19,22 +19,12 @@ var str = "hello word";
 function capitalize(str) 
 {
     str = str.split(" ");
-	
-	if( typeof str == "string") {
-		
+
     for (var i = 0, x = str.length; i < x; i++) {
         str[i] = str[i][0].toUpperCase() + str[i].substr(1);
     }
 
     return str.join(" ");
-	
-	}
-	
-	else{
-		var hello = "";
-		return hello;
-	}
-	
 }
 
 console.log(capitalize(str));
