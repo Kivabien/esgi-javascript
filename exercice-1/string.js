@@ -33,12 +33,12 @@ function camelCase(str) {
          });
      }
 
+var message = "Anaconda";
+
 function leet(chr) {
 	var chrs = {'a':'4','e':'3','i':'1','o':'O','u':'(_)','y':'7'};
 	return chrs[chr.toLowerCase()] || chr;
 }
- 
-var message = "Anaconda";
 
 var str  = "hello world";
 
