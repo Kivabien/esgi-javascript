@@ -1,13 +1,11 @@
+var str = "hello word";
 
-
-var string = "hello word";
-
-function Ucfirst(string) 
+function ucfirst(str) 
 {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+    return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-console.log(Ucfirst(string));
+console.log(ucfirst(str));
 
 
 var str = "hello word";
@@ -38,7 +36,6 @@ function camelCase(str) {
  console.log(camelCase(str));
 
 
-
 function leet(chr) {
   var chrs = {'a':'4','e':'3','i':'1','o':'O','u':'(_)','y':'7'};
   return chrs[chr.toLowerCase()] || chr;
@@ -60,8 +57,3 @@ function verlan(str){
 }
 
 console.log(verlan(str));
-
-// yoda Inverser la position des mots d’une phrase Hello world => world Hello 
-
-
-// vig - Cryptage => Chiffre de Vigenère wikipedia + crypto => yzixisfzy
