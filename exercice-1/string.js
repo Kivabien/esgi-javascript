@@ -11,9 +11,6 @@ function ucfirst(str)
 	}
 }
 
-console.log(ucfirst(str));
-
-
 var str = "hello word";
 
 function capitalize(str) 
@@ -27,9 +24,6 @@ function capitalize(str)
     return str.join(" ");
 }
 
-console.log(capitalize(str));
-
-
 var str = "hello word";
 
 function camelCase(str) {
@@ -39,27 +33,25 @@ function camelCase(str) {
          });
      }
 
- console.log(camelCase(str));
-
-
 function leet(chr) {
-  var chrs = {'a':'4','e':'3','i':'1','o':'O','u':'(_)','y':'7'};
-  return chrs[chr.toLowerCase()] || chr;
+	var chrs = {'a':'4','e':'3','i':'1','o':'O','u':'(_)','y':'7'};
+	return chrs[chr.toLowerCase()] || chr;
 }
  
 var message = "Anaconda";
- 
-console.log( message.replace(/[aeltso]/g, leet) );
-
 
 var str  = "hello world";
 
 function verlan(str){
- if(str === ""){
-  return str ;
- }else{
-  return verlan(str.substr(1)) + str[0];
- }
+	if(str === ""){
+		return str ;
+	}else{
+		return verlan(str.substr(1)) + str[0];
+	}
 }
 
+console.log(ucfirst(str));
+console.log(capitalize(str));
+console.log(camelCase(str));
+console.log( message.replace(/[aeltso]/g, leet) );
 console.log(verlan(str));
