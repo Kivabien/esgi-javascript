@@ -2,12 +2,12 @@ var str = "hello word";
 
 function ucfirst(str) 
 {
-	if( typeof str == "string") {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+	if(typeof str == "string") {
+		return str.charAt(0).toUpperCase() + str.slice(1);
 	}
 	else{
-	var hello = "";
-	return hello;
+		var hello = "";
+		return hello;
 	}
 }
 
