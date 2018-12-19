@@ -1,0 +1,35 @@
+Javascript - Idée de projet :
+
+1ère idée : Création d'une plateforme de quizz.
+Le domaine visé pour les questions : l'informatique et plus particulièrement
+les languages du web.
+
+Pour accéder à notre plateforme, on devra obligatoirement s'inscrire.
+Une fois inscrit, on devra se connecter.
+
+Et, sur notre première page, on aura 3 onglets :
+- L'onglet Accueil qui présente la plateforme.
+- l'onglet Quizz qui nous permet de faire les quizz.
+- L'onglet Déconnexion qui nous permet de nous déconnecter.
+
+Pour l'onglet Quizz qui est l'onglet le plus important de notre projet.
+On aura des sous-menus : 
+- Symfony, Javascript, HTML, CSS, PHP, etc.
+Il suffit de cliquer sur le domaine qu'on veut.
+
+Ensuite, une fois le domaine choisi, on pourra définir notre quizz :
+- Le niveau qu'on souhaite : Facile, Normal, Difficile.
+- Le nombre de question qu'on désire : 10, 20, 50.
+- Un chronomètre ou pas pendant le quizz.
+
+Et, ensuite, on valide et c'est parti pour le quizz.
+
+A la fin, on obtient le nombre de bonne réponse et les réponses
+à ce questionnaire.
+
+Dans notre profil, on pourra avoir des statistiques qui nous permet de voir
+notre taux de réussite globale concernant les quizz.
+
+Ajout éventuelle si le temps nous le permet : 
+La possibilité de proposer des questions, d'avoir son propre quizz sur 
+le site, bien évidemment ce quizz devra être valider par l'administrateur.
